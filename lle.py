@@ -1,4 +1,7 @@
-import streamlit as stt
+import streamlit as st
+import numpy as np
+import matplotlib.pyplot as plt
+
 
 # Function to calculate solute distribution between two phases (based on distribution ratio)
 def calculate_distribution(c_s, D):
