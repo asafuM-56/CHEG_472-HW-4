@@ -1,6 +1,4 @@
 import streamlit as st
-import numpy as np
-import matplotlib.pyplot as plt
 
 def cstr_volume(k, F_A0, X):
     #Calculates the volume of a CSTR for a first-order reaction.
