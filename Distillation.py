@@ -1,5 +1,6 @@
 import streamlit as st
 import numpy as np
+import matplotlib.pyplot as plt
 
 # Function to calculate equilibrium curve (y = alpha * x / (1 + (alpha - 1) * x))
 def equilibrium_curve(x, alpha):
