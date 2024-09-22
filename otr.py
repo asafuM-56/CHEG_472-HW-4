@@ -1,6 +1,4 @@
 import streamlit as st
-import numpy as np
-import matplotlib.pyplot as plt
 
 # Function to calculate the dissolved oxygen level iteratively
 def calculate_do(do, t, otr, consumption_rate):
